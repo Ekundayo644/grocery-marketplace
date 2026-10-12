@@ -1,0 +1,54 @@
+name: grocery_marketplace
+description: Multi-vendor grocery marketplace for Nigeria
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Paystack via WebView (replaces the broken native SDK)
+  paystack_payment: ^1.0.0
+
+  # Supabase
+  supabase_flutter: ^2.5.0
+
+  # State management
+  provider: ^6.1.0
+
+  # Navigation
+  go_router: ^14.2.0
+
+  # Local storage
+  shared_preferences: ^2.2.2
+
+  # UI
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  fluttertoast: ^10.0.0
+
+  # Utils
+  intl: ^0.18.1
+  image_picker: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/shopping.jpg"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/shopping.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/

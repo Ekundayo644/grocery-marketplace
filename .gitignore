@@ -1,0 +1,68 @@
+# ─── Flutter / Dart ───
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+
+# ─── Android ───
+android/.gradle/
+android/captures/
+android/local.properties
+android/key.properties
+android/app/google-services.json
+android/app/release-keystore.jks
+android/app/*.jks
+android/app/*.keystore
+android/app/upload-keystore.jks
+.gradle/
+
+# ─── iOS ───
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GoogleService-Info.plist
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+
+# ─── IDE ───
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ─── OS ───
+.DS_Store
+Thumbs.db
+
+# ─── Secrets ───
+.env
+.env.*
+*.env
+!.env.example
+secrets/
+*.pem
+*.key
+
+# ─── Logs ───
+*.log
+logs/
+
+# ─── Coverage ───
+coverage/
+
+# ─── VS Code workspace settings (optional) ───
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+
+# ─── Supabase local dev ───
+supabase/.branches/
+supabase/.temp/
